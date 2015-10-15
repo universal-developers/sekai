@@ -1,4 +1,22 @@
 <html>
 <head></head>
-<body>test<body>
+<body><div id="tarea"><textarea id="text"></textarea><textarea id="adr"></textarea><div>
+<div id="button"><input type="button" onclick="connect( document.getElementById('adr').value )">connect</button>
+<div id="button"><input type="button" onclick="send()">moo</button>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+var servers = {};
+function connect(url)
+  {
+     console.log('con');
+     var socket = io(url);
+     socket.on('data', function(data){ console.log(data);});
+     socket.on('connect', function(){console.log(this.io.uri+' con'); servers[this.io.uri]=this;});
+     socket.on('disconnect', function(){console.log(this.io.uri+' dis');delete servers[this.io.uri];});
+  }
+function send(){ for(id in servers){servers[id].emit('update', document.getElementById("text").value);}
+//servers.forEach( function(item){item.emit('update', document.getElementById("text").value)});
+}
+</script>
+<body>
 </html>
