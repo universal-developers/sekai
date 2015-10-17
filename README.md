@@ -1,6 +1,13 @@
 # sekai
 Open 3d world written in nodejs
 
+Target: Open and free 3d spaces for all people.
+        We start this, you can make from this all what you want.
+        This project - idea and little prototype code.
+        You can make from it small room or huge world.
+        Fork and edit, copy and distribute. Be happy.
+        All in your hands, people of humanity.
+
 Simple description:
 
 Two parts:
