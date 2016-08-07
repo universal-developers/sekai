@@ -1,8 +1,0 @@
-{
-  "name": "open3dworld-project",
-  "version": "0.0.1",
-  "devDependencies": {
-    "aframe": "*",
-    "aframe-firebase-component": "*"
-  }
-}

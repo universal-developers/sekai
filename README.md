@@ -50,7 +50,9 @@ Project A-Frame
 Little module for multiplayer with aframe and firebase
 (https://github.com/ngokevin/aframe-firebase-component)
 
-Think this good base for update project.
+I think this good base for update project.
+
+Dont forget configure parameters for your Firebase database.
 
 #TODO: from dreams to code. and learn english :)
  
