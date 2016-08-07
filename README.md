@@ -1,5 +1,5 @@
 # sekai
-Open 3d world written in nodejs
+Open 3d world written with fast sync database and web clients.
 
 #Target: 
         
