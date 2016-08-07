@@ -16,32 +16,25 @@ Open 3d world written in nodejs
 Two parts:
 
 1. Server:
-   
-   Store objects and its behavior in database, 
-   work with objects behaviors and give object parameters
-   to connected users. 
-   Load client part to user browser if user conected.
+
+   Store all objects and fast sync it between with clients.      
 
 2. Client: 
    
-   Interpret object data from all connected 
+   Interpret object data from connected 
    servers (client can connect to many server) and 
    render it in 3d space.
    Give user interface for manipulate objects in servers.
 
+Server part: Firebase or other fast sync database.
 
-Server part: Nodejs with persistent store objects in database.
-
-Client part: Javascript code for browsers with 3d engine Three.js
-             for render. Client part load to users browsers if it 
-             conect to server. 
-
+Client part: Use project A-Frame (https://aframe.io/) for this with add
+             components for more functionality.
 
 Idea: assets (3d model, texture, sounds) simple save in web servers and
       object include its URL's in parameters, client load assets from URL's
       and render or play it.
 
-Update:
 
 I find:
 
@@ -50,11 +43,9 @@ Project A-Frame
 Little module for multiplayer with aframe and firebase
 (https://github.com/ngokevin/aframe-firebase-component)
 
-I think this good base for update project.
+I think this good base for project.
 
 Dont forget configure parameters for your Firebase database.
 
 #TODO: from dreams to code. and learn english :)
- 
-
 
