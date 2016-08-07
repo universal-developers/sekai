@@ -41,6 +41,17 @@ Idea: assets (3d model, texture, sounds) simple save in web servers and
       object include its URL's in parameters, client load assets from URL's
       and render or play it.
 
+Update:
+
+I find:
+
+Project A-Frame
+(https://aframe.io/)
+Little module for multiplayer with aframe and firebase
+(https://github.com/ngokevin/aframe-firebase-component)
+
+Think this good base for update project.
+
 #TODO: from dreams to code. and learn english :)
  
 

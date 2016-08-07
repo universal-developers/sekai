@@ -2,8 +2,7 @@
   "name": "open3dworld-project",
   "version": "0.0.1",
   "devDependencies": {
-    "three": "*",
-    "nedb": "*",
-    "socket.io": "*"
+    "aframe": "*",
+    "aframe-firebase-component": "*"
   }
 }
